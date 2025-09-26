@@ -4,7 +4,7 @@
   "description": "A full-stack blogging content management system",
   "scripts": {
     "install": "cd blogging-cms/frontend && npm install",
-    "build": "cd blogging-cms/frontend && npm run build",
+    "build": "cd blogging-cms/frontend && npm install && npm run build",
     "start": "cd blogging-cms/frontend && npm start"
   },
   "keywords": [
